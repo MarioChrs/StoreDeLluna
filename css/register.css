@@ -1,0 +1,65 @@
+.bodyRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerRegister > h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    color: rgb(56, 56, 56);
+}
+
+form {
+    width: 40vw;
+    height: 100%;
+}
+
+/* form label:not([for=female]):not([for=male]):not([for=inpAgree]){
+    padding-left: 75px;
+    padding-right: 75px;
+} */
+
+.form-element {
+    display: flex;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+.form-element > .form-label {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.form-element > .form-content {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.form-element > .form-agree {
+    display: flex;
+}
+
+input {
+    padding: 0.3vw;
+}
+
+.submit{
+    text-align: center;
+    padding-bottom: 4vw;
+}
+
+.submit input{
+    width: 35%;
+    border-radius: 0.5vw;
+    background-color: hotpink;
+    align-items: center;
+}
+
+form input:not([type=radio]){
+    padding: 0.3vw;
+}
